@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <mata name = "viewport" content= "width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <style>
+             *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 16px;
+                line-height: 1.6;
+                background-color: rgb(87, 138, 248);
+                color: #070592;
+                margin: 0;
+                padding: 0%;
+                text-align: center;
+            }
+            h1,h2,h3{
+                color: rgb(17, 17, 129);
+                text-align: center;
+            }
+            header{
+                background-color: white;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+                text-align: center;
+                
+            }
+            section{
+                background-color: rgb(124, 198, 247);
+                padding: 25px;
+                margin-bottom: 10px;
+                border-radius: 8px;
+                border: 1px solid  #350de9;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+                text-align: center;
+                margin: 40px auto;
+                max-width: 900px;
+                width: 90%;
+
+            }
+            
+                 footer{
+                text-align: center;
+                padding: 25px;
+                color:  #350de9;
+                font-size: 15px;
+                text-align: center;
+                margin: 40px auto;
+                max-width: 900px;
+                width: 90%;
+                background-color: rgb(124, 198, 247);
+                border-radius: 8px;
+                border: 1px solid  #350de9;
+            }
+            
+                
+            nav ul{
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                padding: 1px;
+                flex-wrap: wrap;
+                margin: 0%;
+                gap: 1.5rem;
+                text-align: center;
+            }
+            #projects{
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+                text-align: center;
+            }
+            .project-item{
+                display: flex;
+                flex-direction: column;
+                gap: 1.5px;
+                background-color: rgb(147, 147, 245);
+                padding: 1.5px;
+                border-radius: 6px;
+                text-align: center;
+            }
+            .project-item img{
+                max-width: 250px;
+                height: auto;
+                border-radius: 4px;
+                object-fit: cover;
+                text-align: center;
+            }
+            article{
+                background-color: rgb(147, 147, 245);
+                padding: 20px;
+                border-left: 5px solid #350de9;
+                border-radius: 4px;
+                text-align: center;
+                border:0.5px solid #070592;
+            }
+            nav a{
+                text-decoration: none;
+                color: rgb(17, 17, 129);
+                font-weight: bold;
+                font-size: 15px;
+                padding: 8px 16px;
+                transition: all 1.3s ease;
+                text-align: center;
+            }
+            nav a:hover{
+                background-color: beige;
+                border-radius: 4px;
+                 text-align: center;
+            }
+            img{
+                width: 150px;
+                height: 150px;
+                display: block;
+                margin: 15px 0;
+                border-radius: 6px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                object-fit: cover;
+                background-color: rgb(147, 147, 245);
+            }
+            input[type="text"],
+            input[type="email"],
+            textarea{
+                width: 100%;
+                max-width: 500px;
+                padding: 10px;
+                margin-top:5px ;
+                margin-bottom:15px ;
+                border:1px solid #350de9 ;
+                border-radius: 4px;
+                box-sizing: border-box;
+                text-align: center;
+            }
+            button{
+                background-color: darkorchid;
+                color: rgb(57, 3, 82);
+                padding: 10px 20px;
+                border: 0.5px solid rgb(65, 2, 65);
+                border-radius: 4px;
+                cursor: pointer;
+                font-weight: bold;
+                transition: background-color 1.2s ease;
+                text-align: center;
+                font-size: 15px;
+                margin-top: 20px;
+            }
+            
+        </style>
+</head>
+<body>
+   
+     <header>
+        <article>
+            <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#goals">Goals</a>
+            <a href="#contact-me">Contact Me</a>
+            </nav>
+        </article>
+        </header>
+  
+
+        <section id="home">
+            <article>
+            <h1>Veronica Marrie A. Balbin</h1>
+                <p><em>Focus on continuous learning and measurable outcomes</em></p>
+            <img src="https://scontent-mnl3-3.xx.fbcdn.net/v/t39.30808-6/480681195_647505927945475_6556052228590273971_n.jpg?stp=dst-jpg_tt6&cstp=mx960x959&ctp=s960x959&_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHwK8nDAd8ULP3oSp3mbWONuyqVPlQ3DGi7KpU-VDcMaENov2Pa7z87DOp0XBn4XCEiqzb7HY6vNYwhm3hkP6P4&_nc_ohc=cJsh1qViDFkQ7kNvwEAq-Pn&_nc_oc=AdoxR4l26-RAE-1CvtutOb49zkdR8q2lDh6rU_b2SDlByHJddGTAvfnFJWheXogyx5I&_nc_zt=23&_nc_ht=scontent-mnl3-3.xx&_nc_gid=JxaTfe0AVUJ5mhzDKVhZMg&_nc_ss=7b2a8&oh=00_AQOF6VZXqaw-q1E5WxrdEALwxGcnOjgzEoAHP_2fqcD9Bg&oe=6ADD3E0E" alt="Profile Image">
+            <p>Welcome to my Personal Portfolio website! Here you will find my Background, skills, and the web development projects I have worked on.</p>
+            </article>
+        </section>
+    
+
+        <section id="about">
+            <h2>About Me</h2>
+            <article>
+            <p><strong>Biography:<br></strong>I am passionate student eager to learn and build modern web application. I enjoy solving problems through codes and continuously improving my technical skills</p>
+            <p><strong>Course/Program:<br></strong>Bachelor of Science in Information Technology</p>
+            <p><strong>School:<br></strong>Datamex College of Saint Adeline</p>
+            </article>
+            <article>
+                <h4>Hobbies</h4>
+                Eating <br>
+                Reading <br>
+                Sleeping <br>
+                Doing Arts <br>
+                Watching Movies <br>
+            </article>
+            <article>
+                <h4>Strengths</h4>
+                Determination <br>
+                Patience <br>
+                Creativity <br>
+                Focused <br>
+            </article>
+            <article>
+                <h4>Interests</h4>
+                Making my CSS nicely <br>
+                Shows precision and patience <br>
+            </article>
+        </section>
+
+
+        <section id="skills">
+            <h2>My Skills</h2>
+           
+                <p>Here are my skills </p>
+            <article>
+                <h4>Design Skills</h4>
+                Making my own unique designs and artworks<br>
+            </article><br>
+            <article>
+               <h4>Parenting Skills</h4>
+                Taking care of my Baby girl and giving her love and attention that she needs<br>
+            </article><br>
+            <article>
+               <h4>Cooking Skills</h4>
+                Preparing simple but delicious meals <br>
+            </article><br>
+            <article>
+               <h4>Database Skills</h4>
+                Working with ODBC and SQL databases<br>
+            </article><br>
+            <article>
+                <h4>Web Development Skills</h4>
+                 Creating websites using HTML and CSS<br>
+            </article><br>
+             <article>
+                <h4>My Best Skills</h4>
+                 Sleeping, Eating, Reading Books, and Doing Arts<br>
+             </article>
+        </section>
+    
+ <section id="projects">
+            <h2>My Projects</h2>
+                <p>Below are 3 projects demonstrating my practical application of web Technologies:</p>
+                <article class="project-item">
+                <h3>Project 1: Login Form</h3>
+                <img src="D:\nica html folder\images\815209028_1593896255543861_2695643460269229834_n.jpg" alt="Screenshot of Login Form.">
+                <p><strong>Description:<br></strong> Incorporating a login form directly into a clean, single-page layout allows users to access private areas, client portals, or premium content without navigating away from the main page.</p>
+                <p><strong>Technologies used:<br></strong>HTML5, CSS</p>
+            </article><br>
+            <article class="project-item">
+                <h3>Project 2: Real Estate Listing System</h3>
+                <img src="D:\nica html folder\images\d7fde734-c3ce-4ffc-8ff8-774fb158994e.jpg" alt="Screenshot of Real Estate Listing System.">
+                <p><strong>Description:<br></strong> Real Estate Listing System features a User Account Management panel that organizes agent and client data into an administrative data grid. The secure dashboard tracks User ID's, credentials, specific role permissions and active account timestamps to streamline property management workflows.</p>
+                <p><strong>Technologies used:<br></strong>ODBC, Microsoft Visual Studio, Microsoft SQL Server</p>
+            </article><br>
+            <article class="project-item">
+                <h3>Project 3: My Personal Portfolio</h3>
+                <img src="D:\nica html folder\images\Screenshot 2026-10-17 162057.png" alt="Screenshot of My Personal Portfolio.">
+                <p><strong>Description:<br></strong>My Personal Portfolio is a website that I create for my Personal Information here you can see About me, Skills, My projects and my contact.</p>
+                <p><strong>Technologies used:<br></strong>HTML5, CSS</p>
+            </article>
+        </section>
+
+         <section id="achievements">
+            <h2>My Achievement</h2>
+           <article>
+            <img src="https://scontent-mnl1-1.xx.fbcdn.net/v/t39.30808-6/494626069_24420479340875580_6222046807452085733_n.jpg?stp=dst-jpg_tt6&cstp=mx852x1280&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGU7lf63fqOtvc7sGi7E7WJXl9YHoLy8J5eX1gegvLwntG4rKQoeT-YaADqpGMI_d5hqHDA47mAuKT1PUx4OX_B&_nc_ohc=F18XmJvpjKcQ7kNvwHaYL4A&_nc_oc=AdpW69ub7wurGWBfh9KBLAT5tNeqkIQwtykLLfBDSLa60c2-uymrw2WIEj8cPFNa3rk&_nc_zt=23&_nc_ht=scontent-mnl1-1.xx&_nc_gid=Y1HzK4256ZSDbM9prByENQ&_nc_ss=7b2a8&oh=00_AQOBhQlJMpqQIH29df9klPQ7ScJFuF5oJXwntnUJi64H5Q&oe=6ADD2A9E" alt="Screenshot of My cute Inspiration.">
+                <p>My achievement is nothing special yet, so important to me and that is my Baby i don't have anything yet, but I am working hard to achieve more for her so she and  i can have a better future.</p>
+            </article>
+        </section>
+
+         <section id="goals">
+            <h2>My Goals</h2>
+                <p>Here are my goals in the future:</p>
+             <article class="project-item">
+      <h3>For Studying</h3>
+      <p>Learning new things and improved my skills so I can be better at what I do.</p>
+    </article><br>
+       <article class="project-item">
+      <h3>For my Future Career</h3>
+      <p>Get my degree and get a good job in the tech field.</p>
+    </article><br>
+         <article class="project-item">
+      <h3>Build A loving Home</h3>
+      <p>Get a good paying job so I can create a comfortable home for my baby and my family.</p>
+    </article>
+        </section>
+
+        <section id="contact-me">
+            <h2>Contact Me</h2>
+           <article>
+             <p><strong>Email:<br></strong><a href="veronicamarriebalbin@gmail.com">veronicamarriebalbin@gmail.com</a></p>
+            <p><strong>Social Media:</strong></p>
+                <a href="https://www.facebook.com/NICABALBIN01">Facebook Profile</a><br>
+                <a href="https://instagram.com/park_nica13?dlrf=MXQ3bWE0YjBvcnM0OA%3D%3D">Instagram Profile</a>
+           </article>
+
+            <h2>Send a Message</h2>
+            <form action="#">
+               <article>
+                 <p>
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" required>
+                </p>
+                <p>
+                    <label for="user-email">Email:</label><br>
+                    <input type="email" name="user-email" required>
+                </p>
+                 <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </p>
+               </article>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Veronica Marrie A. Balbin | Personal Portfolio</p>
+        </footer>
+    </body>
+</html>
